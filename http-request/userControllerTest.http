@@ -1,0 +1,10 @@
+### Create user
+POST http://localhost:4001/users
+Content-Type: application/json
+
+{
+  "name": "Allan Teixeira",
+  "email": "allan.teixeira@teste.com"
+}
+
+// If it isn't showing any Play Button, use some plugin linke HTTP Client or HTTP REQUEST
